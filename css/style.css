@@ -1,0 +1,253 @@
+/* 
+---------------------------------------
+  || General Styles
+---------------------------------------
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #2a3b40;
+}
+
+h1,
+h2,
+p,
+a {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  /* border: 1px solid salmon; */
+}
+
+
+
+
+
+/* 
+---------------------------------------
+  || Header
+---------------------------------------
+*/
+
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: inline-block;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.logo,
+.nav-link {
+  text-transform: uppercase;
+  color: #dde0e0;
+  font-size: 2.1875rem;
+  font-weight: 700;
+}
+
+
+
+
+
+/* 
+---------------------------------------
+  || Hero
+---------------------------------------
+*/
+
+.hero {
+  background-image: url("../img/hero-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 14em 2em;
+}
+
+.hero-text {
+  background-color: #efebd1;
+  width: 756px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 7.5em 6.875em;
+  opacity: .82;
+}
+
+.hero-header {
+  font-size: 6.5rem;
+  font-family: 'Cookie', cursive;
+  color: #2c3a42;
+  margin-bottom: -.25em;
+}
+
+.hero-subheader {
+  font-size: 4.8125rem;
+  font-weight: 600;
+  color: #ad6c12;
+  margin-bottom: .62em;
+}
+
+.hero-read {
+  font-size: 2.40625rem;
+  font-weight: 600;
+  color: #26363a;
+}
+
+
+
+
+
+/* 
+---------------------------------------
+  || Flavours Section
+---------------------------------------
+*/
+
+.flavours {
+  padding: 4.375em 0;
+}
+
+.flavours-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4em;
+}
+
+.flavours-text {
+  margin-right: 4em;
+}
+
+.flavours-header {
+  font-size: 1.8125rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.flavours-paragraph {
+  font-size: 1.1875rem;
+  color: #ffffff;
+}
+
+.flavours-full {
+  background-color: #ffffff;
+  opacity: .82;
+  padding: 6em 1em;
+}
+
+.flavours-bottom {
+  color: #2a3b40;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.flavours-col {
+  max-width: 290px;
+  display: inline-block;
+}
+
+
+
+
+/* 
+---------------------------------------
+  || Plate Section
+---------------------------------------
+*/
+
+.plate {
+  background-image: url("../img/plate-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 6em 1em;
+}
+
+.plate-content {
+  background-color: #ffffff;
+  opacity: .82;
+  padding-top: 3.25em;
+}
+
+.plate-header {
+  font-size: 4.8125rem;
+  font-family: 'Cookie', cursive;
+  color: #2c3a42;
+  text-align: center;
+  margin-bottom: -.2em;
+}
+
+.plate-subheader {
+  text-transform: uppercase;
+  font-size: 2.9375rem;
+  font-weight: 600;
+  color: #ad6c12;
+  text-align: center;
+  margin-bottom: 1.15em;
+}
+
+.plate-foods {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plate-food {
+  display: flex;
+}
+
+.reversed {
+  flex-direction: row-reverse;
+}
+
+.col-plate {
+  display: inline-block;
+  max-width: 267px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.plate-food-img {
+  max-width: 100%;
+}
+
+.plate-food-text {
+  padding: 1em 3.125em;
+  color: #304751;
+}
+
+.plate-food-name,
+.plate-food-price {
+  font-weight: 700;
+}
+
+.plate-food-name {
+  text-transform: uppercase;
+}
+
